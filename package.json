@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-sparkbox",
+  "name": "@sparkbox/stylelint-config-sparkbox",
   "version": "0.1.0",
   "description": "A set of stylelint customizations that we use at Sparkbox.",
   "main": "index.js",
