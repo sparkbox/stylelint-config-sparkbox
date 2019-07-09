@@ -18,6 +18,12 @@
   "dependencies": {
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0",
-    "stylelint-scss": "^1.4.3"
-  }
+    "stylelint-scss": "^1.4.3",
+    "snyk": "^1.192.4"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
