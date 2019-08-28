@@ -1,6 +1,6 @@
 {
   "name": "@sparkbox/stylelint-config-sparkbox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A set of stylelint customizations that we use at Sparkbox.",
   "main": "index.js",
   "keywords": [
@@ -16,8 +16,8 @@
   "author": "Sparkbox",
   "license": "ISC",
   "dependencies": {
-    "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0",
-    "stylelint-scss": "^1.4.3"
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.10.0"
   }
 }
