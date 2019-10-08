@@ -5,6 +5,6 @@ Put this in your `.stylelintrc` file.
 
 ```
 {
-  "extends": "stylelint-config-sparkbox"
+  "extends": "@sparkbox/stylelint-config-sparkbox"
 }
 ```
