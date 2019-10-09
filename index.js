@@ -1,8 +1,5 @@
 module.exports = {
-  "extends": "stylelint-config-standard",
-  "plugins": [
-    "stylelint-scss"
-  ],
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
   "env": {
     "node": true,
     "browser": true
