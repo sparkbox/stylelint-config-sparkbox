@@ -16,7 +16,7 @@
   "author": "Sparkbox",
   "license": "ISC",
   "dependencies": {
-    "stylelint": "^11.0.0",
+    "stylelint": "^13.0.0",
     "stylelint-config-recommended-scss": "^4.0.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-scss": "^3.11.1"
