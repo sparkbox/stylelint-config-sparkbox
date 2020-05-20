@@ -24,7 +24,11 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "release": "standard-version && git push --follow-tags origin head"
   },
-  "snyk": true
+  "snyk": true,
+  "devDependencies": {
+    "standard-version": "^8.0.0"
+  }
 }
